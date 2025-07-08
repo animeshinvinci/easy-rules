@@ -1,0 +1,26 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git checkout:*)",
+      "Bash(mkdir:*)",
+      "Bash(mvn clean:*)",
+      "Bash(/usr/local/bin/mvn clean test)",
+      "Bash(find:*)",
+      "Bash(ls:*)",
+      "Bash(java:*)",
+      "Bash(brew:*)",
+      "Bash(mvn test:*)",
+      "Bash(docker:*)",
+      "Bash(open:*)",
+      "Bash(colima start:*)",
+      "Bash(cat:*)",
+      "Bash(psql:*)",
+      "Bash(git remote get-url:*)",
+      "Bash(git remote set-url:*)",
+      "Bash(git config:*)",
+      "Bash(git push:*)",
+      "Bash(/usr/bin/git push origin db_driven-rules)"
+    ],
+    "deny": []
+  }
+}
